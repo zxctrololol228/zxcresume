@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @media only screen and (min-width:1px) and (max-width: 650px) {
+    .card1 {display: block;text-align: center;}
+   .email {width:100%;margin-left: 0;margin-bottom: 10px;display: block;}
+   .name {width:100%;margin-left: 0;margin-bottom: 10px;display: block;}
+}
+body{font-size: 16px;font-family: 'Roboto', sans-serif;font-weight: bold;color: rgba(0, 0, 0, 0.623);background-image:url(topfon.jpg);}
+.card1{display: flex;}
+.cardtext1{margin-left: 30px;}
+.card2{border: rgb(173, 55, 114) solid 2px;background-color:rgb(6, 148, 30);margin-top:10px;}
+.card3{border: rgb(255, 7, 7) solid 2px;background-color: rgb(118, 47, 172);margin-top:10px;}
+.card4{margin-top:10px;color: #000;}
+.container{margin: auto;max-width: 850px;padding-top: 30px;}
+.avatar{box-shadow: 4px 4px 14px rgba(0,0,0,0.25);width:300px;border-radius: 28px;}
+a{color: #000;text-decoration: none;}
+a:active{color: rgb(216, 216, 216);}
+a:hover {text-decoration: underline;}
+a:visited{color: rgb(73, 21, 73);}
+.butt{background: #111;padding: 15px 20px;border: none;font-family: inherit;cursor: pointer; color: #fff;}
+ol :first-child{margin-left: 5px;color:black;}
+ol :nth-child(2){margin-left: 10px;}
+ol :last-child{margin-left: 15px;color:black;}
+table th{color: black;}
+table{width: 100%;}
+h2{margin-left: 10px;}
+h1{margin-left: 10px;}
+table tr:nth-child(2){color: rgb(25, 218, 218);}
+table tr:nth-child(3){color: rgb(3, 255, 179);}
+table tr:nth-child(4){color: rgb(191, 230, 84);}
+.card4 label{display:block;font-size:14px;color:#86898f;}
+.card4 h2{text-align: center;}
+.email{display: inline-block;margin-left: 15px;width: calc(50% - 20px);}
+.name {display: inline-block;margin-bottom: 10px;width: calc(50% - 20px);}
+.card4 input,
+.card4 textarea{outline: none; width: 100%;box-sizing: border-box;border: none;background: transparent;border-bottom: 1px solid #ccc;color: #000;padding: 15px 0 10px;}
